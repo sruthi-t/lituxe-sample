@@ -1,0 +1,29 @@
+class App extends React.Component {
+  constructor() {
+    super();
+    // state variable initialization here
+    // Event handling functions binds here
+  }
+  // Event handling functions here
+  render() {
+    // Constants and variables initialization here
+    return ( <h2> WELCOME TO REACT WORLD </h2>);
+  }
+}
+export default App;
+
+ render() {
+    // Constants and variables initialization here
+    return ( <h2> WELCOME TO REACT WORLD </h2>);
+  }
+}
+export default App;
+Anjith KM5:12 PM
+  render() {
+    const text = "WELCOME TO REACT WORLD";
+     var count = 0;
+    return ( <div>
+  <h2>{text}</h2>
+  <button>{count}</button>
+    /div>);
+  }
